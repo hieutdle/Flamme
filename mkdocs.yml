@@ -1,0 +1,48 @@
+site_name: flamme.wiki
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  palette:    # Palette toggle for light mode
+    - scheme: default
+      primary: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: red
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - content.code.copy
+    - content.code.select
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Foreword: index.md
+  - Fundamental Programming:
+      - "Stanford CS106L: Standard C++ Programming":
+          - Lectures:
+              - 2. Types and Structs: "Fundamental Programming/Stanford CS106L: Standard C++ Programming/Lectures/types-and-structs.md"
+              - 3. Initialization and References: "Fundamental Programming/Stanford CS106L: Standard C++ Programming/Lectures/initialization-and-references.md"
+              - 4. Streams: "Fundamental Programming/Stanford CS106L: Standard C++ Programming/Lectures/streams.md"
+          - Assignments:
+              - 1. SimpleEnroll: "Fundamental Programming/Stanford CS106L: Standard C++ Programming/Assignments/assignment-1.md"
+  - Database Systems:
+    - "CMU 15-445: Database Systems"
+    - "SQL Practice":
+      - HackerRank: "Database Systems/SQL Practice/HackerRank.md"
+      - LeetCode: "Database Systems/SQL Practice/LeetCode.md"
+  - Advanced Computer Systems:
+    - "Crafting Interpreters"
+    - "Stanford CS149: Parallel Computing"
