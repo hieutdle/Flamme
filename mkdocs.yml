@@ -37,7 +37,7 @@ nav:
               - 3. Initialization and References: "Fundamental Programming/CS106L/Lectures/initialization-and-references.md"
               - 4. Streams: "Fundamental Programming/CS106L/Lectures/streams.md"
       - "UC Berkeley CS61A":
-          - Note: "Fundamental Programming/CS61A/note.md"
+          - "CS61A Note": "Fundamental Programming/CS61A/note.md"
   - Database Systems:
     - "CMU 15-445":
       - Lectures:
