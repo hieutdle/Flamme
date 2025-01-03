@@ -32,13 +32,13 @@ nav:
   - Foreword: index.md
   - Fundamental Programming:
       - "Stanford CS106L":
-          - Lectures:
-              - 2. Types and Structs: "Fundamental Programming/CS106L/Lectures/types-and-structs.md"
-              - 3. Initialization and References: "Fundamental Programming/CS106L/Lectures/initialization-and-references.md"
-              - 4. Streams: "Fundamental Programming/CS106L/Lectures/streams.md"
+              - 2. Types and Structs: "Fundamental Programming/CS106L/types-and-structs.md"
+              - 3. Initialization and References: "Fundamental Programming/CS106L/initialization-and-references.md"
+              - 4. Streams: "Fundamental Programming/CS106L/streams.md"
       - "UC Berkeley CS61A":
           - "CS61A Note": "Fundamental Programming/CS61A/note.md"
   - Database Systems:
     - "CMU 15-445":
-      - Lectures:
-        - 1. Introduction: "Database Systems/15-445/Lectures/introduction.md"
+        - 1. Introduction: "Database Systems/15-445/introduction.md"
+  - Miscellaneous:
+        - "Data Structures [Junmin Lee]": "Miscellaneous/dsa-junmin.md"
