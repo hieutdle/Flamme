@@ -40,5 +40,5 @@ nav:
   - Database Systems:
     - "CMU 15-445":
         - 1. Introduction: "Database Systems/15-445/introduction.md"
-  - Miscellaneous:
-        - "Data Structures [Junmin Lee]": "Miscellaneous/dsa-junmin.md"
+  - Misc:
+        - "Data Structures [Junmin Lee]": "Misc/dsa-junmin.md"
