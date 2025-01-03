@@ -4,7 +4,7 @@ This post is based on [Data Structures in Golang by Junmin Lee](https://www.yout
 
 ## Linked List
 
-![Linked List](../images/images-courses/linkedlist.png)
+![Linked List](images/dsa-junmin/linkedlist.png)
 
 Linked List put the values in nodes. Nodes are linked to each other by containing address of the next nodes.
 
@@ -108,7 +108,7 @@ func main() {
 
 ## Stacks
 
-![Stacks](../images/images-courses/stacks.png)
+![Stacks](images/dsa-junmin/stacks.png)
 
 - Last in first out (**LIFO**)
 - Add: **Push**. Remove: **Pop**
@@ -159,7 +159,7 @@ func main() {
 
 ## Queues
 
-![Queues](../images/images-courses/queues.png)
+![Queues](images/dsa-junmin/queues.png)
 
 - First in first out
 - Add : **Enqueue**. Remove: **Deque**
@@ -206,7 +206,7 @@ func main() {
 
 ## Binary Search Tree
 
-![Tree](../images/images-courses/binarytree.png)
+![Tree](images/dsa-junmin/binarytree.png)
 
 Root -> Parent -> Children -> Leaf
 
@@ -295,7 +295,7 @@ true
 
 ## Tries
 
-![Trie](../images/images-courses/tries.png)
+![Trie](images/dsa-junmin/tries.png)
 
 Trees that store words.
 
@@ -392,7 +392,7 @@ true
 
 ## Hash Tables
 
-![Hash Table](../images/images-courses/hashtables.png)
+![Hash Table](images/dsa-junmin/hashtables.png)
 
 ### Introduction
 
@@ -585,7 +585,7 @@ false
 
 ## Heap
 
-![Heap](../images/images-courses/heaps.png)
+![Heap](images/dsa-junmin/heaps.png)
 
 The parent node is larger than a child.
 
@@ -746,8 +746,8 @@ func main() {
 
 ## Graph
 
-![Adjacency List](../images/images-courses/adlist.png)
-![Adjacency Matrix](../images/images-courses/admatrix.png)
+![Adjacency List](images/dsa-junmin/adlist.png)
+![Adjacency Matrix](images/dsa-junmin/admatrix.png)
 
 ### Adjacency Matrix vs Adjacency List:
 
@@ -779,7 +779,7 @@ Both constant time
 **Delete Edge**
 Same for add edge for matrix. But for ad-list, you need to travel to find the edge => 0(V)
 
-![Compare](../images/images-courses/comparead.png)
+![Compare](images/dsa-junmin/comparead.png)
 
 ### Implement
 
@@ -938,7 +938,7 @@ func squareVal(v int)  {
 }
 ```
 
-![](../images/images-courses/pointer.png)
+![](images/dsa-junmin/pointer.png)
 
 They are isolated frames.
 
@@ -956,7 +956,7 @@ func squareAdd(p *int){
 }
 ```
 
-![](../images/images-courses/pointer2.png)
+![](images/dsa-junmin/pointer2.png)
 
 ### return `m` (value) and `&m` (pointer)
 
@@ -982,7 +982,7 @@ func main()  {
 
 When we call initPerson, we create `m`. Then you change the value of `m`, because of the isolation characteristic. We can not send `m` to the `main()` function. Instead, we make a copy of `m`.
 
-![](../images/images-courses/pointer3.png)
+![](images/dsa-junmin/pointer3.png)
 
 Let's return the address of `m`
 
@@ -999,13 +999,13 @@ func main()  {
 }
 ```
 
-![](../images/images-courses/pointer4.png)
+![](images/dsa-junmin/pointer4.png)
 
 We have an address pointing to `m`, but when the `initPerson()` function finish. That frame is become invalid so the address we copied into the active frame is useless. That where heaps come in so heaps is going to solve this problem for us. The name heaps is different from data structure heaps.
 
 The compiler will analyze what's going on and figures out that this may cause the problem and copy `m` to the heap. Then the `initPerson()` function will return the address of `m` in the heap. After the return when the address of `m` is copied to the frame of the `main()` function. We would be able to access 'm\` with that address.
 
-![](../images/images-courses/pointer5.png)
+![](images/dsa-junmin/pointer5.png)
 
 ### Garbage Collector
 
@@ -1017,7 +1017,7 @@ If we put something in the heap, that will create job for the garbage collector.
 
 There is a specific algorithms for the garbage collector automatically sets the memory free for ones that we don't use and just keep the ones that we need.
 
-![](../images/images-courses/pointer6.png)
+![](images/dsa-junmin/pointer6.png)
 
 ## Few notes
 

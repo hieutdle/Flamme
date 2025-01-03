@@ -2,8 +2,8 @@
 
 **CS 106L: Standard C++ Programming (Autumn 2024):**
 
-* Course Website: [Stanford](https://web.stanford.edu/class/cs106l/)
-* Recordings: [Youtube](https://youtube.com/playlist?list=PLCgD3ws8aVdolCexlz8f3U-RROA0s5jWA&si=iaFdVf21mVLtKiIU)
+- Course Website: [Stanford](https://web.stanford.edu/class/cs106l/)
+- Recordings: [Youtube](https://youtube.com/playlist?list=PLCgD3ws8aVdolCexlz8f3U-RROA0s5jWA&si=iaFdVf21mVLtKiIU)
 
 ## Types
 
@@ -11,22 +11,22 @@ A **type** refers to the “category” of a variable
 
 C++ comes with built-in types:
 
-* `int 106`
-* `double 71.4`
-* `string “Welcome to CS106L!”`
-* `bool true false`
-* `size_t 12 // Non-negative`
+- `int 106`
+- `double 71.4`
+- `string “Welcome to CS106L!”`
+- `bool true false`
+- `size_t 12 // Non-negative`
 
 ### Static Typing
 
-* Every variable must declare a type
-* Once declared, the type cannot change
+- Every variable must declare a type
+- Once declared, the type cannot change
 
 ### Why static typing?
 
-* More efficient
-* Easier to understand and reason about
-* Better error checking
+- More efficient
+- Easier to understand and reason about
+- Better error checking
 
 ```python
 def add_3(x):
@@ -146,9 +146,9 @@ struct pair {
 
 ## std ― The C++ Standard Library
 
-See the official standard at [cppreference.com!](cppreference.com)
+See the official standard at [cppreference.com!](http://cppreference.com/)
 
-To use `std::pair`, you must `#include` it. `std::pair` is defined in a header file called ``utility``
+To use `std::pair`, you must `#include` it. `std::pair` is defined in a header file called `utility`
 
 ```cpp
 #include <utility>
@@ -186,7 +186,7 @@ The auto keyword tells the compiler to infer the type
 std::pair<bool, std::pair<double, double>> result = solveQuadratic(a, b, c);
 
 auto result = solveQuadratic(a, b, c);
-// This is exactly the same as the above! 
+// This is exactly the same as the above!
 // result still has type std::pair<bool, std::pair<double, double>>
 // We just told the compiler to figure this out for us!
 ```

@@ -2,8 +2,8 @@
 
 **CS 106L: Standard C++ Programming (Autumn 2024):**
 
-* Course Website: [Stanford](https://web.stanford.edu/class/cs106l/)
-* Recordings: [Youtube](https://youtube.com/playlist?list=PLCgD3ws8aVdolCexlz8f3U-RROA0s5jWA&si=iaFdVf21mVLtKiIU)
+- Course Website: [Stanford](https://web.stanford.edu/class/cs106l/)
+- Recordings: [Youtube](https://youtube.com/playlist?list=PLCgD3ws8aVdolCexlz8f3U-RROA0s5jWA&si=iaFdVf21mVLtKiIU)
 
 ## What are streams??!!
 

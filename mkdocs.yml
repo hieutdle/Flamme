@@ -20,6 +20,9 @@ theme:
     - content.code.select
 
 markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -42,3 +45,4 @@ nav:
         - 1. Introduction: "Database Systems/15-445/introduction.md"
   - Misc:
         - "Data Structures [Junmin Lee]": "Misc/dsa-junmin.md"
+        - "Learning Go [Book]": "Misc/learning-go.md"

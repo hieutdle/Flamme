@@ -2,12 +2,12 @@
 
 **CS 106L: Standard C++ Programming (Autumn 2024):**
 
-* Course Website: [Stanford](https://web.stanford.edu/class/cs106l/)
-* Recordings: [Youtube](https://youtube.com/playlist?list=PLCgD3ws8aVdolCexlz8f3U-RROA0s5jWA&si=iaFdVf21mVLtKiIU)
+- Course Website: [Stanford](https://web.stanford.edu/class/cs106l/)
+- Recordings: [Youtube](https://youtube.com/playlist?list=PLCgD3ws8aVdolCexlz8f3U-RROA0s5jWA&si=iaFdVf21mVLtKiIU)
 
 ## Initialization
 
-**What?**: “Provides initial values at the time of construction” - [cppreference.com](cppreference.com)
+**What?**: “Provides initial values at the time of construction” - [cppreference.com](https://cppreference.com)
 
 ### 1. Direct initialization
 
@@ -73,7 +73,7 @@ Uniform initialization is awesome because:
 
 1. It’s safe! It doesn’t allow for narrowing conversions—which can lead to unexpected behaviour (or critical system failures :o)
 2. It’s ubiquitous it works for all types like vectors, maps, and custom
-classes, among other things!
+   classes, among other things!
 
 ```cpp
 #include <iostream>
@@ -104,9 +104,9 @@ int main() {
 
 ### 3. Structured Binding (C++ 17)
 
-* A useful way to initialize some variables from data structures with fixed sizes at compile time
-* Ability to access multiple values returned by a function
-* Can use on objects where the size is known at compile-time
+- A useful way to initialize some variables from data structures with fixed sizes at compile time
+- Ability to access multiple values returned by a function
+- Can use on objects where the size is known at compile-time
 
 ```cpp
 #include <iostream>
@@ -133,7 +133,7 @@ int main() {
 
 ## References
 
-**What?**: “Declares a name variable as a reference” tldr: a reference is an alias to an already-existing thing - [cppreference.com](cppreference.com).
+**What?**: “Declares a name variable as a reference” tldr: a reference is an alias to an already-existing thing - [cppreference.com](http://cppreference.com/).
 
 Use an ampersand (&)
 
@@ -229,12 +229,12 @@ int squareN(int& num){
 
 `num` is an **l-value**!
 
-* **r-values** are temporary. Notice that `num` is being passed in by reference!
-* We cannot pass in an r-value by reference because they’re temporary!
+- **r-values** are temporary. Notice that `num` is being passed in by reference!
+- We cannot pass in an r-value by reference because they’re temporary!
 
 ## const
 
-**What?**: A qualifier for objects that declares they cannot be modified  - [cppreference.com](cppreference.com).
+**What?**: A qualifier for objects that declares they cannot be modified - [cppreference.com](http://cppreference.com/).
 
 ```cpp
 #include <iostream>
@@ -274,21 +274,21 @@ int main()
 
 ## Compiling C++ programs
 
-* A few popular compilers include clang and g++
-* Here is how to compile a program using g++
+- A few popular compilers include clang and g++
+- Here is how to compile a program using g++
 
 ```bash
 g++ -std=c++11 main.cpp -o main
 ```
 
-* `g++`: This is the compiler command
-* `-std=c++11` This specifies the c++ version you want to compile in
-* `main.cpp`: This is the source file
-* `-o`: This means that you’re going to give a specific name to your  executable
-* `main`: In this case it’s main
+- `g++`: This is the compiler command
+- `-std=c++11` This specifies the c++ version you want to compile in
+- `main.cpp`: This is the source file
+- `-o`: This means that you’re going to give a specific name to your executable
+- `main`: In this case it’s main
 
 ```bash
 g++ -std=c++11 main.cpp
 ```
 
-This is also valid, your  executable will be something like `a.out`
+This is also valid, your executable will be something like `a.out`
