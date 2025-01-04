@@ -43,6 +43,11 @@ nav:
   - Database Systems:
     - "CMU 15-445":
         - 1. Introduction: "Database Systems/15-445/introduction.md"
+  - Data Structures and Algorithms:
+    - "LeetCode":
+        - "Cpp Node": "DSA/LeetCode/cpp-node.md"
+        - "Python Node": "DSA/LeetCode/python-node.md"
+        - "Algorithms Note": "DSA/LeetCode/algo-note.md"
   - Misc:
         - "Data Structures [Junmin Lee]": "Misc/dsa-junmin.md"
         - "Learning Go [Book]": "Misc/learning-go.md"
